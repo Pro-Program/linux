@@ -1,2 +1,2 @@
-# Pro Program Linux Scripts
-The Latest Linux Scripts for installing unsupported things and useful things!
+# Pro Program Linux Scripts!
+The Latest Linux Scripts, and Starter Linux Scripts for dummies
