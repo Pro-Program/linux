@@ -8,4 +8,5 @@ sudo bash jumpstart.sh
 qemu-img create -f qcow2 MyDisk.qcow2 64G
 echo "Mac Address cannot be configured yet, use this mac address when in basic.sh, DO NOT LOG INTO YOUR APPLE ID YET!"
 openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/:$//'
-sudo bash basic.sh
+chmod +x basic.sh
+./basic.sh
