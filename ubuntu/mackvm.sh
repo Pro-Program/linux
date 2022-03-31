@@ -9,4 +9,4 @@ qemu-img create -f qcow2 MyDisk.qcow2 64G
 echo "Mac Address cannot be configured yet, use this mac address when in basic.sh, DO NOT LOG INTO YOUR APPLE ID YET!"
 openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/:$//'
 chmod +x basic.sh
-echo "Done!, open basic.sh and change ram and cpu, and run basic.sh"
+echo "Done!, open basic.sh and change ram, cpu, mac address, and run basic.sh"
