@@ -1,6 +1,6 @@
 echo "This installs a Mac KVM where the directory this script is"
 sudo apt update
-sudo apt-get install qemu python python-pip git
+sudo apt-get install qemu python python3-pip git
 pip install click request
 git clone https://github.com/Pro-Program/macOS-Simple-KVM.git
 cd macOS-Simple-KVM
