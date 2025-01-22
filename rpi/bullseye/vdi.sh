@@ -1,4 +1,4 @@
-apt install python3-pip python3-tk virt-viewer git wget
+sudo apt install python3-pip python3-tk virt-viewer git wget 
 git clone https://github.com/Pro-Program/VDI
 cd ./VDI/
 chmod +x requirements.sh
