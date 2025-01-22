@@ -3,7 +3,9 @@ git clone https://github.com/Pro-Program/VDI
 cd ./VDI/
 chmod +x requirements.sh
 ./requirements.sh
+sudo mkdir /etc/vdiclient/
 wget https://raw.githubusercontent.com/Pro-Program/config-files/refs/heads/main/vdiclient.ini
+sudo cp vdiclient.ini /etc/vdiclient/vdiclient.ini
 sudo echo "10.0.0.46    premium02.proprogram.local" >> /etc/hosts
 cd /etc/xdg/lxsession/LXDE-pi
 sudo mv autostart autostart.bak
